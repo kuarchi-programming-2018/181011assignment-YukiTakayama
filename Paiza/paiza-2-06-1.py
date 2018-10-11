@@ -1,4 +1,4 @@
-# coding: utf-8
+﻿# coding: utf-8
 '''
  演習課題「西暦年を昭和年に変換してみよう」
 右側のコードエリアのプログラムをもとに、プログラムを完成させてください。
@@ -20,3 +20,11 @@ print("西暦" + str(seireki) + "年は", end = "")
 showa = 0
 # 昭和年を出力
 print("昭和" + str(showa) + "年です。")
+
+import random
+
+seireki=random.randint(1926,1988)
+
+syowa=seireki-1925
+
+print("西暦"+str(seireki)+"年は"+"昭和"+str(syowa)+"年です")
